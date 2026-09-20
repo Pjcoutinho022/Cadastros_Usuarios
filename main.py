@@ -65,7 +65,7 @@ def senha_lista_cadastro():
 
 
 while True:
-    menu()
+    print(menu())
     try:
         opcao = int(input("\nInforme a opção desejada: "))
 
